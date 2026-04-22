@@ -1,12 +1,14 @@
 
 import './App.css'
-import Counter from './components/counter/Counter';
-import Writer from './components/Writer';
+import DailyHabitTracker from './components/counter/DailyHabitTracker.tsx';
+
+import HabitTracker from './components/counter/DailyHabitTracker.tsx';
+
 
 function App() {
   return (
     <>
-   <Writer/>
+  <DailyHabitTracker></DailyHabitTracker>
     </>
   );
 }
